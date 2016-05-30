@@ -8,4 +8,5 @@ var http = require('http'),
             response.write(data);
             response.end();
         });
+        console.log('test');
     }).listen(1337);
