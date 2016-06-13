@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<body>
-	<div id="container-app">
 		<div class="cta-button">
 			<a href="#">scan qr</a>
 		</div>
@@ -35,14 +30,14 @@
 
 			<div class="clear"></div>
 		</div><!--End product-->
-	</div>	
+	</div>
 	<div class="totalprice-cart">
 		<!-- <div class="promoCode">
 			<label for="promo">Promo Code?</label>
 			<input type="text" name="promo" placholder="Enter Code" />
 	  		<a href="#"></a>
   		</div> -->
-  
+
   		<div class="subtotal cf">
     			<ul>
       				<li class="totalRow"><span class="label">Subtotal</span><span class="value">&euro;88.44</span></li>
@@ -54,8 +49,5 @@
   		</div>
 	</div><!--totalprice-cart end-->
 	<div class="checkout">
-		<a href="payment.html">Checkout!</a>
+		<a href="?action=payment">Checkout!</a>
 	</div><!-- end checkout button -->
-		
-	</div><!--End container-app-->
-

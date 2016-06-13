@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<body>
-	<div id="container-app">
 		<div class="cta-button">
 			<a href="#">scan qr</a>
 		</div>
@@ -47,7 +43,7 @@
 
 
 		<div class="product lightgray">
-			<div class="info-button"><a href="product.html"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
+			<div class="info-button"><a href=""><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
 				<div class="image">
 					<img src="links/jacket.jpg" alt="jacket">
 				</div>
@@ -97,8 +93,3 @@
 				</div><!--End info-product-->
 			<div class="clear"></div>
 		</div><!--End product-->
-
-	</div><!--End container-app-->
-
-
-

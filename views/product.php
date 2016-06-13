@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<body>
-	<div id="container-app">
 		<div class="cta-button">
 			<a href="#">scan qr</a>
 		</div>
-		
+
 	<div class="product-main">
 		<div class="image-main">
 			<img src="links/backpack.JPG" alt="backpack">
@@ -34,8 +29,3 @@
 
 		</div><!--End info-product-->
 	</div>
-
-	</div><!--End container-app-->
-
-
-

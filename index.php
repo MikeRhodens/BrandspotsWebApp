@@ -1,11 +1,19 @@
 <?php
+
 include 'views/header.php';
 
-$action = isset($_GET['action']);
-
+$action = isset($_GET['action']) ? $_GET['action'] : "";
 switch ($action) {
-  case 'value':
+  case 'cart':
+    include 'views/cart.php';
+    break;
 
+  case 'payment':
+    include 'views/payment.php';
+    break;
+
+  case 'overzicht':
+    include 'views/overzicht.php';
     break;
 
   default:
@@ -14,5 +22,6 @@ switch ($action) {
 }
 
 include 'views/footer.php';
+
 
  ?>
