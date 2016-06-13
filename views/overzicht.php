@@ -18,7 +18,7 @@
 		<div class="product darkgray">
 			<div class="info-button"><a href="product.html"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
 				<div class="image">
-					<img src="links/backpack.JPG" alt="backpack">
+					<img src="assets/links/backpack.JPG" alt="backpack">
 				</div>
 				<div class="info-product">
 					<div class="title-product">
@@ -45,7 +45,7 @@
 		<div class="product lightgray">
 			<div class="info-button"><a href=""><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
 				<div class="image">
-					<img src="links/jacket.jpg" alt="jacket">
+					<img src="assets/links/jacket.jpg" alt="jacket">
 				</div>
 				<div class="info-product">
 					<div class="title-product">
@@ -71,7 +71,7 @@
 		<div class="product darkgray">
 			<div class="info-button"><a href="product.html"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></div>
 				<div class="image">
-					<img src="links/placeholder.png" alt="jacket">
+					<img src="assets/links/placeholder.png" alt="jacket">
 				</div>
 				<div class="info-product">
 					<div class="title-product">
