@@ -9,7 +9,7 @@ switch ($action) {
     break;
 
   default:
-    include 'views/index.php';
+    include 'views/overzicht.php';
     break;
 }
 
