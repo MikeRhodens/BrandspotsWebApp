@@ -18,7 +18,6 @@
 </footer>
 
 </div><!--End container-app-->
-
 <script src="libs/jquery.js"></script>
 <script src="assets/js/index.js"></script>
 
