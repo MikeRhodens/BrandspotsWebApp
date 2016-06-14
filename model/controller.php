@@ -1,17 +1,10 @@
-<?php 
+<?php
+		$dataArray[];
+		$query = "SELECT * FROM products";
+		echo $query;
+		$res_users = $mysqli->query($query);
 
-Class Product {
-	private $name;
-    private $desc;
-	private $price;
-	private $shopurl;
-	private $sizes;
-	private $image;
-	
-	function setAll() {
-	
-	}
-	
-}
-
-?>
+		while ($some_users = $res_users->fetch_assoc()) {
+			echo $some_users['id'];
+		}
+ ?>
