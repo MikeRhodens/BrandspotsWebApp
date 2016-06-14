@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+
 include 'config/connect.php';
 include 'views/header.php';
 $action = isset($_GET['action']) ? mysqli_real_escape_string($mysqli,$_GET['action']) : "";
@@ -32,7 +35,6 @@ switch ($action) {
     include 'views/overzicht.php';
     break;
 }
-
 include 'views/footer.php';
 
 ?>
