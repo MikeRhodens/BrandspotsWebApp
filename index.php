@@ -1,7 +1,6 @@
 <?php
 include 'config/connect.php';
 include 'views/header.php';
-
 $action = isset($_GET['action']) ? $_GET['action'] : "";
 switch ($action) {
   case 'cart':
