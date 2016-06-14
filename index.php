@@ -12,14 +12,17 @@ switch ($action) {
     break;
 
   case 'overzicht':
-
+    include 'model/getall.php';
     include 'views/overzicht.php';
     break;
 
   case 'search';
+    include 'model/search.php';
     include 'views/searchresults.php';
     break;
+
   default:
+    include 'model/getall.php';
     include 'views/overzicht.php';
     break;
 }
