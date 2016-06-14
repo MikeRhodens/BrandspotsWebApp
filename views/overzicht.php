@@ -1,4 +1,3 @@
-<?php $database = new Database('webapp','root','','localhost') ?>
 <div class="cta-button">
 	<h3>Overzicht</h3>
 </div>
