@@ -17,6 +17,9 @@ switch ($action) {
     include 'views/overzicht.php';
     break;
 
+  case 'search';
+    include 'views/searchresults.php';
+    break;
   default:
     include 'views/overzicht.php';
     break;

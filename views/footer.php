@@ -8,8 +8,10 @@
   </div><!--End nav-footer-->
     <div class="input"><!--Deze div komt omhoog als je search klikt-->
       <div>
-            <input type="text" class="search-input" value="" placeholder="Search..." name="text" id="icon-search">
-            <button class="search-button"><i class="fa fa-search"></i></button>
+            <form action="?action=search" method="post" id="searchForm">
+            <input type="text" class="search-input" value="" placeholder="Search..." name="searchQuery" id="icon-search">
+            <button class="search-button" form="searchForm"><i class="fa fa-search"></i></button>
+            <form>
           </div>
     </div>
   <div class="clear"></div>
