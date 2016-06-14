@@ -1,0 +1,19 @@
+@media screen and (min-width:450px ){
+	#container-app{
+		max-width: 460px;
+		position: relative;
+		height: 736px;
+		margin: 50px auto 0;
+		border: 2px solid #e1e1e1;
+	}
+	.nav-footer{
+		width: 460px;
+		position: absolute;
+	}
+	.input{
+	position:absolute;
+	}
+	.title-payment{
+		font-size:2em;
+	}
+}

@@ -1,3 +1,4 @@
+<?php $database = new Database('test','root','','localhost') ?>
 		<div class="cta-button">
 			<a href="#">scan qr</a>
 		</div>

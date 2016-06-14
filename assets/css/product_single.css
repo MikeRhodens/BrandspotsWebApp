@@ -1,0 +1,22 @@
+.product-main{
+	width: 90%;
+	margin: 0 auto;
+	height: auto;
+}
+.image-main{
+	height: auto;
+}
+.product-main .title-product{
+	font-size: .7em;
+	letter-spacing: 2px;
+}
+.product-main .review-stars ul{
+	margin-top: 0;
+}
+.product-main .info-product{
+	width: 100%;
+	padding-left: 0;
+}
+.info-product .cta-button{
+	margin-top: 10px;
+}

@@ -13,6 +13,7 @@ switch ($action) {
     break;
 
   case 'overzicht':
+    include 'config/connect.php';
     include 'views/overzicht.php';
     break;
 
@@ -22,6 +23,5 @@ switch ($action) {
 }
 
 include 'views/footer.php';
-
 
  ?>
