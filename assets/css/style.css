@@ -80,6 +80,7 @@ img{width: 100%;}
 	-webkit-box-sizing:border-box;
 	border-bottom: solid 1px black;
 	border-top: solid 1px black;
+
 }
 
 .product a {
@@ -114,6 +115,8 @@ img{width: 100%;}
 	letter-spacing: 1px;
 			box-sizing: border-box;
 	-webkit-box-sizing: border-box;
+	display: table-cell;
+    vertical-align: middle;
 }
 .product .title-product{
 	font-size:0.6em;
