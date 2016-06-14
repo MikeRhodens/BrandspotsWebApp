@@ -19,7 +19,7 @@ img{width: 100%;}
 ::-moz-placeholder {color: #494949;}
 :-ms-input-placeholder {color: #494949;}
 /***************Custom CSS*****************/
-.cta-button a{
+.cta-button h3{
 	display: block;
 	width: 100%;
 	height: 60px;
@@ -32,7 +32,11 @@ img{width: 100%;}
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
 	font-weight: 600;
-}.cta-button a:hover,.cta-button a:active,.cta-button a:focus{background:#bc052a;}
+}
+
+.cta-button a:hover,
+.cta-button a:active,
+.cta-button a:focus{background:#bc052a;}
 .sort-by{
 	display: block;
 	height: 40px;
@@ -51,14 +55,15 @@ img{width: 100%;}
 }
 .sort-button a{
 	display: block;
-	width: 27%;
+	width: 40.5%;
 	height: 40px;
 	float: left;
+	padding-right: -40px;
 	color:#fafafa;
 	background:#494949;
 	text-align: center;
 	box-sizing: border-box;
-}.mr{margin-right: 3%;}
+}
 .sort-button a:hover,.sort-button a:active,.sort-button a:focus{
 	background:#3b3b3b;
 }

@@ -1,5 +1,5 @@
 		<div class="cta-button">
-			<a href="#">scan qr</a>
+			<h3>Afrekenen</h3>
 		</div>
 	<div class="main-cart">
 		<div class="product lightgray">
