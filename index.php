@@ -1,4 +1,7 @@
 <?php
+session_start();
+
+
 include 'config/connect.php';
 include 'views/header.php';
 $action = isset($_GET['action']) ? $_GET['action'] : "";
@@ -26,7 +29,6 @@ switch ($action) {
     include 'views/overzicht.php';
     break;
 }
-
 include 'views/footer.php';
 
 ?>
