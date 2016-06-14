@@ -28,3 +28,24 @@
 .info-button {
 	margin-top: -7%;
 }
+
+.title-product, .price-product {
+	text-align: center;
+}
+
+.cart-button {
+	border: 1px solid white;
+	margin:10px;
+	padding: 8px;
+	background-color: crimson;
+	color:white;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+
+}
+
+.product-description {
+	color:black;
+	margin:5px;
+}
