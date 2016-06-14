@@ -20,11 +20,7 @@
 			$id = $row['id'];
 		  ?>
 		    <div class='product darkgray'>
-<<<<<<< HEAD
-		      <div class='info-button'><a href='?action=product&id= <?php echo $id;  ?>'><i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a></div>
-=======
-			<a href='product.html'>
->>>>>>> 7968615f0ad18c2bc99c1e109d064580aa91a0c7
+			<a href='?action=product&id= <?php echo $id;  ?>'>
 		        <div class='image'>
 		          <img src='assets/links/<?php echo $imgNumber; ?>.JPG' alt='backpack'>
 		        </div>
