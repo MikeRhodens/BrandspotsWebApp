@@ -1,5 +1,5 @@
 <?php
-
+include 'config/connect.php';
 include 'views/header.php';
 
 $action = isset($_GET['action']) ? $_GET['action'] : "";
@@ -13,7 +13,7 @@ switch ($action) {
     break;
 
   case 'overzicht':
-    include 'config/connect.php';
+
     include 'views/overzicht.php';
     break;
 
@@ -24,4 +24,4 @@ switch ($action) {
 
 include 'views/footer.php';
 
- ?>
+?>
