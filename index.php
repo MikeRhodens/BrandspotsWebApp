@@ -17,6 +17,7 @@ switch ($action) {
     break;
 
   case 'overzicht':
+    include 'model/sort.php';
     include 'model/getall.php';
     include 'views/overzicht.php';
     break;

@@ -4,10 +4,10 @@
 <div class="sort-by">
     <div class="text"><h4>Sort by:</h4></div>
     <div class="sort-button">
-        <a class="" href="#">Price</a>
+        <a class="" href="?action=overzicht&sort=price">Price</a>
     </div>
     <div class="sort-button">
-        <a class="" href="#">Alphabet</a>
+        <a class="" href="?action=overzicht&sort=alpha">Alphabet</a>
     </div>
     <div class="clear"></div>
 </div><!--End Sort by-->
