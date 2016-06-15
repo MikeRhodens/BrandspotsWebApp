@@ -4,14 +4,14 @@
 
 <div class="product-main">
     <div class="image-main">
-        <img src="assets/links/1.JPG" alt="backpack">
+        <img src="assets/links/<?php echo $img; ?>.JPG" alt="backpack">
     </div>
     <div class="info-product">
         <div class="title-product">
-            <h1>Product Naam</h1>
+            <h1><?php echo $name; ?></h1>
         </div>
         <div class="price-product">
-            <h4><span class="bold">Prijs:</span> &euro; 69,99 </h4>
+            <h4><span class="bold">Prijs:</span> &euro; <?php echo $price; ?> </h4>
         </div>
         <!-- <div class="review-stars">
             <ul class="stars3">
@@ -30,8 +30,7 @@
         </div>
 
         <div class="product-description">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+            <?php echo $desc; ?>
 
         </div>
 
