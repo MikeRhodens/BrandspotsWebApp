@@ -19,9 +19,10 @@ foreach ($result as $row) {
     $imgNumber = $row['product_image'];
     $price = $row['product_price'];
     $name = $row['product_name'];
+    $id = $row['id'];
     ?>
     <div class='product darkgray'>
-        <div class='info-button'><a href='product.html'><i class='fa fa-arrow-circle-right' aria-hidden='true'></i></a>
+        <div class='info-button'><a href='?action=product&id=<?php echo $id; ?>'></a>
         </div>
         <div class='image'>
             <img src='assets/links/<?php echo $imgNumber; ?>.JPG' alt='backpack'>

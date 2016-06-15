@@ -12,6 +12,7 @@ foreach($resultall as $row){
   $price = $row['product_price'];
   $desc = $row['product_desc'];
   $img = $row['product_image'];
+  $id = $row['id'];
 }
 
 
