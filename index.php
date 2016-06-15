@@ -8,7 +8,7 @@ $action = isset($_GET['action']) ? mysqli_real_escape_string($mysqli,$_GET['acti
 
 switch ($action) {
   case 'cart':
-    include 'model/cart.php';
+    include 'model/cartModel.php';
     include 'views/cart.php';
     break;
 
