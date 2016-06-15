@@ -24,7 +24,7 @@
             </ul>
         </div> -->
         <div class="cta-button">
-            <a href="?action=cart" style="height:0px;">
+            <a href="?action=cart&id=<?php echo $id; ?>" style="height:0px;">
                 <button class="cart-button">Add to cart</button
             </a>
         </div>
