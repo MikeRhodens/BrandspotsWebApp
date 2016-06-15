@@ -1,19 +1,28 @@
 <?php
 
-$searchQuery = isset($_POST['searchQuery']) ? $_POST['searchQuery'] : "";
-$searchQuery = "%" . $searchQuery . "%";
-$searchQuery = mysqli_real_escape_string($mysqli, $searchQuery);
-$fixedQuery = 'no query fixes';
-if($searchQuery != '%%' || $searchQuery != ''){
-  $_SESSION['q'] = $searchQuery;
-  $fixedQuery = $_SESSION['q'];
-}
 
-echo $_SESSION['q'] . '<br>';
+if(isset($_POST['searchQuery'])){
+  $_SESSION['q'] = $_POST['searchQuery'];
+  $searchQuery = $_SESSION['q'];
+}
+else{
+  $searchQuery = $_SESSION['q'];
+}
+// $searchQuery = isset($_POST['searchQuery']) ? $_POST['searchQuery'] : "";
+// $searchQuery = mysqli_real_escape_string($mysqli, $searchQuery);
+// $fixedQuery = 'no query fixes';
+// if(!empty($searchQuery)){
+//   $_SESSION['q'] = $searchQuery;
+//   $fixedQuery = $_SESSION['q'];
+// }
+
+$searchQuery = "%" . $searchQuery . "%";
+// echo $searchQuery . '<br>';
+
 //echo $fixedquery;
 
-$query = "SELECT * FROM products WHERE product_name LIKE '$fixedQuery'";
-$searchQueryPart = "* FROM products WHERE product_name LIKE '$fixedQuery'";
+$query = "SELECT * FROM products WHERE product_name LIKE '$searchQuery'";
+$searchQueryPart = "* FROM products WHERE product_name LIKE '$searchQuery'";
 $result = $mysqli->query($query);
 //var_dump($result);
 
