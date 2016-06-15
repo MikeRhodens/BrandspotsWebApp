@@ -30,8 +30,8 @@
     </div>
     <div class="clear"></div>
 </div><!--End Sort by-->
-
 <?php
+echo "results for <b>" . $_SESSION['q'] . "</b>";
 foreach ($result as $row) {
     $imgNumber = $row['product_image'];
     $price = $row['product_price'];
