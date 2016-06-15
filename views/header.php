@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/payment.css">
     <link rel="stylesheet" href="assets/css/queries.css">
     <link rel="stylesheet" href="assets/css/cart.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/product_overzicht.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
