@@ -3,6 +3,7 @@ session_start();
 
 include 'config/connect.php';
 include 'views/header.php';
+include 'model/controller.php';
 
 $action = isset($_GET['action']) ? mysqli_real_escape_string($mysqli,$_GET['action']) : "";
 
@@ -17,16 +18,16 @@ switch ($action) {
     break;
 
   case 'overzicht':
-    include 'model/sort.php';
     include 'model/getall.php';
+    include 'model/sort.php';
     include 'views/overzicht.php';
     break;
 
   case 'search';
     include 'model/search.php';
+    include 'model/sort.php';
     include 'views/searchresults.php';
     break;
-
 
   case 'product';
     include 'model/getproduct.php';

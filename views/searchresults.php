@@ -5,10 +5,28 @@
 <div class="sort-by">
     <div class="text"><h4>Sort by:</h4></div>
     <div class="sort-button">
-        <a class="" href="#">Price</a>
+        <a class="" href="?action=search&sort=
+				<?php
+				if(isset($_GET['sort']) && $_GET['sort'] == 'price1'){
+					echo 'price2';
+				}
+				else {
+					echo 'price1';
+				}
+				?>
+				">Price</a>
     </div>
     <div class="sort-button">
-        <a class="" href="#">Alphabet</a>
+        <a class="" href="?action=search&sort=
+				<?php
+				if(isset($_GET['sort']) && $_GET['sort'] == 'alpha1'){
+					echo 'alpha2';
+				}
+				else {
+					echo 'alpha1';
+				}
+				?>
+				">Alphabet</a>
     </div>
     <div class="clear"></div>
 </div><!--End Sort by-->

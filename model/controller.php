@@ -26,11 +26,11 @@ function getSingleData($id)
     return $dataArray;
 }
 
-function GetSortedData($sortby, $ascDesc)
+function GetSortedData($dataArray,$sortby,$ascDesc,$mainQueryPart)
 {
     global $mysqli;
     $dataArray = array();
-    $query = "SELECT * FROM products ORDER BY ".$sortby." "."$ascDesc";
+    $query = "SELECT ".$mainQueryPart." ORDER BY ".$sortby." "."$ascDesc";
     $res_data = $mysqli->query($query);
 
     while ($data = $res_data->fetch_assoc()) {
