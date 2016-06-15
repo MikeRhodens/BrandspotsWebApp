@@ -41,3 +41,13 @@
 .price-product{
 	font-weight: 400;
 }
+
+@media (max-width: 360px) {
+  .title-product h1, .price-product h4 {
+	  font-size: 16px;
+  }
+
+  .info-product {
+	  margin-top: 25px;
+  }
+}
