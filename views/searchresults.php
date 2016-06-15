@@ -13,7 +13,6 @@
     <div class="clear"></div>
 </div><!--End Sort by-->
 
-
 <?php
 foreach ($result as $row) {
     $imgNumber = $row['product_image'];
@@ -22,19 +21,19 @@ foreach ($result as $row) {
     $id = $row['id'];
     ?>
     <div class='product darkgray'>
-        <div class='info-button'><a href='?action=product&id=<?php echo $id; ?>'></a>
-        </div>
-        <div class='image'>
-            <img src='assets/links/<?php echo $imgNumber; ?>.JPG' alt='backpack'>
-        </div>
-        <div class='info-product'>
-            <div class='title-product'>
-                <h1><?php echo $name; ?></h1>
+        <a href='?action=product&id= <?php echo $id; ?>'>
+            <div class='image'>
+                <img src='assets/links/<?php echo $imgNumber; ?>.JPG' alt='backpack'>
             </div>
-            <div class='price-product'>
-                <h4><span class='bold'>Prijs:</span> &euro; <?php echo $price; ?></h4>
-            </div>
-        </div><!--End info-product-->
-        <div class='clear'></div>
+            <div class='info-product'>
+                <div class='title-product'>
+                    <h1><?php echo $name; ?></h1>
+                </div>
+                <div class='price-product'>
+                    <h4><span class='bold'>Prijs:</span> &euro; <?php echo $price; ?></h4>
+                </div>
+            </div><!--End info-product-->
+            <div class='clear'></div>
+        </a>
     </div><!--End product-->
 <?php } ?>
