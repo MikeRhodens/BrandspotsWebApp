@@ -43,8 +43,8 @@
         <div class="subtotal cf">
             <ul>
                 <li class="totalRow"><span class="label">Total (tax incl.)</span><span class="value">&euro;<?php echo $money; ?></span></li>
-                <li class="totalRow"><span class="label">Shipping</span><span class="value">&euro;4.95</span></li>
-                <li class="totalRow final"><span class="label">Total</span><span class="value">&euro;<?php echo $total; ?></span></li>
+                <li class="totalRow"><span class="label">Shipping</span><span class="value">&euro;<?php if ($money != "0") { echo '4.95'; }else{ echo "0";}  ?></span></li>
+                <li class="totalRow final"><span class="label">Total</span><span class="value">&euro;<?php if ($money != "0") { echo $total; }else{ echo "0";}  ?></span></li>
             </ul>
         </div>
     </div><!--totalprice-cart end-->
