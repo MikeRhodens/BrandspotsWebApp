@@ -2,7 +2,7 @@
     <h3>Overzicht</h3>
 </div>
 <div class="sort-by">
-    <div class="text"><h4>Sort by:</h4></div>
+    <div class="text"><h4>Sorteren:</h4></div>
     <div class="sort-button">
         <a class="" href="?action=overzicht&sort=
 				<?php
@@ -13,7 +13,7 @@
 					echo 'price1';
 				}
 				?>
-				">Price</a>
+				">Prijs</a>
     </div>
     <div class="sort-button">
         <a class="" href="?action=overzicht&sort=
@@ -25,7 +25,7 @@
 					echo 'alpha1';
 				}
 				?>
-				">Alphabet</a>
+				">Alfabetisch</a>
     </div>
     <div class="clear"></div>
 </div><!--End Sort by-->

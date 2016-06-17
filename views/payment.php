@@ -1,17 +1,18 @@
+<div class="cta-button">
+    <h3>Betaling</h3>
+</div>
 <div class="payment-main">
-    <div class="step-2">
-        <h1>Step 2</h1>
-    </div>
-    <form action="#" class="form">
-        <input type="text" value="" placeholder="Name:" name="text">
-        <input type="text" value="" placeholder="Street Name:" name="text">
-        <input type="text" value="" placeholder="Zip Code:" name="text">
-        <input type="text" value="" placeholder="City:" name="text">
-        <input type="text" value="" placeholder="Cell Phone" name="text">
-    </form>
+
+    <form action="?action=paymentdone" method="post" class="form" id="paymentForm">
+        <input type="text" value="" placeholder="Naam:" name="name">
+        <input type="text" value="" placeholder="Straatnaam:" name="street">
+        <input type="text" value="" placeholder="Postcode:" name="zipcode">
+        <input type="text" value="" placeholder="Stad:" name="city">
+        <input type="text" value="" placeholder="Telefoon:" name="cellphone">
+
     <!--end form-->
-    <div class="title-payment">Choose payment method:</div>
-    <div class="buttons">
+    <div class="title-payment">Kies betaalmethoden:</div>
+    <!-- <div class="buttons">
         <div class="visa">
             <a href="#">Visa Card</a>
         </div>
@@ -21,9 +22,15 @@
         <div class="paypall">
             <a href="#">PayPall</a>
         </div>
-    </div>
+    </div> -->
     <!-- end buttons-->
+    <select name="paymentOptions" id="paymentOptions" form="paymentForm">
+      <option value="visa">VISA</option>
+      <option value="ideal">iDeal</option>
+      <option value="paypal">PayPal</option>
+    </select>
     <div class="cta-button">
-        <a href="#">Check out!</a>
+        <input type="submit" value="Check out!">
     </div>
+    </form>
 </div>

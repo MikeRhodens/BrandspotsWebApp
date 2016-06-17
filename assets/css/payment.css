@@ -23,6 +23,18 @@ form.form input {
     font-size: 14px;
 }
 
+#goBackButton{
+  width: 90%;
+  margin-left:auto;
+  margin-right: auto;
+  display: block;
+  border: none;
+  background: #ccc;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
 .title-payment {
     text-align: center;
     font-size: 8vw;
@@ -54,4 +66,16 @@ form.form input {
 
 .payment-main .cta-button {
     margin-top: 20px;
+}
+
+#paymentOptions {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border:1px solid black;
+}
+
+.payment-done {
+  margin-left:13%;
+  margin-top:2%;
 }

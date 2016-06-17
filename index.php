@@ -17,6 +17,11 @@ switch ($action) {
     include 'views/payment.php';
     break;
 
+    case 'paymentdone':
+      include 'model/getPaymentInfo.php';
+      include 'views/paymentDone.php';
+      break;
+
   case 'overzicht':
     include 'model/getall.php';
     include 'model/sort.php';

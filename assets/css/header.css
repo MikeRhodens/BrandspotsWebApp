@@ -28,13 +28,13 @@
 	-webkit-box-sizing: border-box;
 }
 .sort-by .text{
-	width: 19%;
+	width: 21%;
 	height: 40px;
 	float: left;
 }
 .sort-button a{
 	display: block;
-	width: 40.5%;
+	width: 39.5%;
 	height: 40px;
 	float: left;
 	padding-right: -40px;
