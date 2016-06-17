@@ -23,6 +23,8 @@ $searchQuery = "%" . $searchQuery . "%";
 
 $query = "SELECT * FROM products WHERE product_name LIKE '$searchQuery'";
 $searchQueryPart = "* FROM products WHERE product_name LIKE '$searchQuery'";
+$query = mysqli_real_escape_string($mysqli, $query);
+$searchQueryPart = mysqli_real_escape_string($mysqli, $searchQueryPart);
 $result = $mysqli->query($query);
 //var_dump($result);
 
