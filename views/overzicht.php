@@ -1,5 +1,5 @@
 <div class="cta-button">
-    <h3>Overzicht</h3>
+    <a href="?action=qr"><h3>QR SCANNEN</h3></a>
 </div>
 <div class="sort-by">
     <div class="text"><h4>Sorteren:</h4></div>

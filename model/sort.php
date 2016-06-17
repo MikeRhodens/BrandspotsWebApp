@@ -29,7 +29,8 @@ if($currentpage == 'overzicht' && isset($resultall)){
   $resultall = GetSortedData($resultall,$sortQuery,$sortAscDesc,$mainQueryPart);
 }
 elseif ($currentpage == 'search' && isset($result)) {
-  $mainQueryPart = mysqli_real_escape_string($mysqli,$searchQueryPart);
-  $result = GetSortedData($result,$sortQuery,$sortAscDesc,$mainQueryPart);
+  $result = GetSortedData($result,$sortQuery,$sortAscDesc,$searchQueryPart);
+ //var_dump($result);
 }
+
 ?>

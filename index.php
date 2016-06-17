@@ -27,6 +27,10 @@ switch ($action) {
     include 'model/sort.php';
     include 'views/overzicht.php';
     break;
+  case 'qr':
+    include 'views/qr.php';
+    include 'views/Web QR.html';
+    break;
 
   case 'search';
     include 'model/search.php';
